@@ -15,7 +15,6 @@ class CandidatType extends AbstractType
             ->add('nom')
             ->add('cognoms')
             ->add('telefon')
-            ->add('ofertas')
             ->add('usuari')
         ;
     }

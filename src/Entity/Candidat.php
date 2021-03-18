@@ -3,8 +3,6 @@
 namespace App\Entity;
 
 use App\Repository\CandidatRepository;
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -35,19 +33,10 @@ class Candidat
     private $telefon;
 
     /**
-     * @ORM\ManyToMany(targetEntity=Oferta::class, mappedBy="candidats")
-     */
-    private $ofertas;
-
-    /**
      * @ORM\OneToOne(targetEntity=User::class, cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
      */
     private $usuari;
-
-    public function __construct()
-    {
-        $this->ofertas = new ArrayCollection();
-    }
 
     public function getId(): ?int
     {
@@ -90,39 +79,12 @@ class Candidat
         return $this;
     }
 
-    /**
-     * @return Collection|Oferta[]
-     */
-    public function getOfertas(): Collection
-    {
-        return $this->ofertas;
-    }
-
-    public function addOferta(Oferta $oferta): self
-    {
-        if (!$this->ofertas->contains($oferta)) {
-            $this->ofertas[] = $oferta;
-            $oferta->addCandidat($this);
-        }
-
-        return $this;
-    }
-
-    public function removeOferta(Oferta $oferta): self
-    {
-        if ($this->ofertas->removeElement($oferta)) {
-            $oferta->removeCandidat($this);
-        }
-
-        return $this;
-    }
-
     public function getUsuari(): ?User
     {
         return $this->usuari;
     }
 
-    public function setUsuari(?User $usuari): self
+    public function setUsuari(User $usuari): self
     {
         $this->usuari = $usuari;
 

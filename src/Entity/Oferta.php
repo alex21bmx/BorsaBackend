@@ -45,17 +45,19 @@ class Oferta
     private $estat;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Categoria::class, inversedBy="ofertas")
+     * @ORM\ManyToOne(targetEntity=Categoria::class)
+     * @ORM\JoinColumn(nullable=false)
      */
     private $categoria;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Empresa::class, inversedBy="ofertas")
+     * @ORM\ManyToOne(targetEntity=Empresa::class)
+     * @ORM\JoinColumn(nullable=false)
      */
     private $empresa;
 
     /**
-     * @ORM\ManyToMany(targetEntity=Candidat::class, inversedBy="ofertas")
+     * @ORM\ManyToMany(targetEntity=Candidat::class)
      */
     private $candidats;
 
@@ -129,24 +131,24 @@ class Oferta
         return $this;
     }
 
-    public function getCategoria(): ?Categoria
+    public function getCategoria(): ?categoria
     {
         return $this->categoria;
     }
 
-    public function setCategoria(?Categoria $categoria): self
+    public function setCategoria(?categoria $categoria): self
     {
         $this->categoria = $categoria;
 
         return $this;
     }
 
-    public function getEmpresa(): ?Empresa
+    public function getEmpresa(): ?empresa
     {
         return $this->empresa;
     }
 
-    public function setEmpresa(?Empresa $empresa): self
+    public function setEmpresa(?empresa $empresa): self
     {
         $this->empresa = $empresa;
 
@@ -154,14 +156,14 @@ class Oferta
     }
 
     /**
-     * @return Collection|Candidat[]
+     * @return Collection|candidat[]
      */
     public function getCandidats(): Collection
     {
         return $this->candidats;
     }
 
-    public function addCandidat(Candidat $candidat): self
+    public function addCandidat(candidat $candidat): self
     {
         if (!$this->candidats->contains($candidat)) {
             $this->candidats[] = $candidat;
@@ -170,7 +172,7 @@ class Oferta
         return $this;
     }
 
-    public function removeCandidat(Candidat $candidat): self
+    public function removeCandidat(candidat $candidat): self
     {
         $this->candidats->removeElement($candidat);
 

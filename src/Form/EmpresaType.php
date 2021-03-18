@@ -16,6 +16,7 @@ class EmpresaType extends AbstractType
             ->add('tipus')
             ->add('logo')
             ->add('correu')
+            ->add('usuari')
         ;
     }
 
