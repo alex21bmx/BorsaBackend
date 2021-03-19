@@ -174,6 +174,6 @@ class __TwigTemplate_9c1d63c661268aa8c2abe5debd63d64f0f520fd236ece6e06882ced24e2
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\open.html.twig");
     }
 }

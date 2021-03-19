@@ -1186,6 +1186,6 @@ div.sf-toolbar .sf-toolbar-block a:hover {
         display: none !important;
     }
 }
-", "@WebProfiler/Profiler/toolbar.css.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar.css.twig");
+", "@WebProfiler/Profiler/toolbar.css.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar.css.twig");
     }
 }

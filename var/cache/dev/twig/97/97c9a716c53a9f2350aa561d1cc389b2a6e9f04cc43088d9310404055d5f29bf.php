@@ -62,12 +62,14 @@ class __TwigTemplate_e205d81826005fbf1bcb23bee86d79bb38d77ec98501c3b1d7eb56c7960
         // line 12
         $this->displayBlock('javascripts', $context, $blocks);
         // line 15
-        echo "    </head>
+        echo "        <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"/>
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl\" crossorigin=\"anonymous\">
+    </head>
     <body>
         ";
-        // line 17
+        // line 19
         $this->displayBlock('body', $context, $blocks);
-        // line 18
+        // line 20
         echo "    </body>
 </html>
 ";
@@ -142,7 +144,7 @@ class __TwigTemplate_e205d81826005fbf1bcb23bee86d79bb38d77ec98501c3b1d7eb56c7960
 
     }
 
-    // line 17
+    // line 19
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -167,7 +169,7 @@ class __TwigTemplate_e205d81826005fbf1bcb23bee86d79bb38d77ec98501c3b1d7eb56c7960
 
     public function getDebugInfo()
     {
-        return array (  146 => 17,  136 => 14,  134 => 13,  124 => 12,  114 => 10,  112 => 9,  102 => 8,  83 => 5,  71 => 18,  69 => 17,  65 => 15,  63 => 12,  60 => 11,  57 => 8,  53 => 5,  47 => 1,);
+        return array (  148 => 19,  138 => 14,  136 => 13,  126 => 12,  116 => 10,  114 => 9,  104 => 8,  85 => 5,  73 => 20,  71 => 19,  65 => 15,  63 => 12,  60 => 11,  57 => 8,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -186,11 +188,13 @@ class __TwigTemplate_e205d81826005fbf1bcb23bee86d79bb38d77ec98501c3b1d7eb56c7960
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
+        <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"https://bootswatch.com/4/flatly/bootstrap.min.css\"/>
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl\" crossorigin=\"anonymous\">
     </head>
     <body>
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\base.html.twig");
     }
 }

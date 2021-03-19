@@ -133,6 +133,6 @@ class __TwigTemplate_1596cefe4fcdc418188ee9ef0dc8d4d2383de164a1dad7ab03ad2350260
 
     <a href=\"{{ path('empresa_index') }}\">back to list</a>
 {% endblock %}
-", "empresa/new.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\empresa\\new.html.twig");
+", "empresa/new.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\empresa\\new.html.twig");
     }
 }

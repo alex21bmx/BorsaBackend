@@ -205,6 +205,6 @@ class __TwigTemplate_14edb7ecc3dfa9ae37b3d612c26a2890739bb9345c1ded7d96dab63e02e
 
     <a href=\"{{ path('categoria_new') }}\">Create new</a>
 {% endblock %}
-", "categoria/index.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\categoria\\index.html.twig");
+", "categoria/index.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\categoria\\index.html.twig");
     }
 }

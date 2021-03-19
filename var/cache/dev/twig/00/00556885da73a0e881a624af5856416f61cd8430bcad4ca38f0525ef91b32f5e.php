@@ -219,6 +219,6 @@ class __TwigTemplate_ec993a18132fc2ab98d0f037ed5d6497e74953e08ad3caaea23ed42db2b
 
     <a href=\"{{ path('candidat_new') }}\">Create new</a>
 {% endblock %}
-", "candidat/index.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\candidat\\index.html.twig");
+", "candidat/index.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\candidat\\index.html.twig");
     }
 }

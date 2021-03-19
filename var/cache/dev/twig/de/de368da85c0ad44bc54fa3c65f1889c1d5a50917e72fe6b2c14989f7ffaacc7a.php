@@ -205,6 +205,6 @@ class __TwigTemplate_10c5ba30702ac8974753ecd9cc9ef7701e9a53a993e84148ed189dbc1d0
 
     {{ include('empresa/_delete_form.html.twig') }}
 {% endblock %}
-", "empresa/show.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\empresa\\show.html.twig");
+", "empresa/show.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\empresa\\show.html.twig");
     }
 }

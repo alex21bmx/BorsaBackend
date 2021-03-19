@@ -133,6 +133,6 @@ class __TwigTemplate_186879d0e0d489716316b49c414c94a3c2e29bd45515eaa120866793aaa
 
     <a href=\"{{ path('categoria_index') }}\">back to list</a>
 {% endblock %}
-", "categoria/new.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\categoria\\new.html.twig");
+", "categoria/new.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\categoria\\new.html.twig");
     }
 }

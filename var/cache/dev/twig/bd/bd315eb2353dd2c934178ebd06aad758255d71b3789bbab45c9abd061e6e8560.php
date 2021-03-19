@@ -81,6 +81,6 @@ class __TwigTemplate_7d1644d8c2f8e82fcbe9b17edded38239fcba836e5304c2557d3c361615
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ empresa.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "empresa/_delete_form.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\empresa\\_delete_form.html.twig");
+", "empresa/_delete_form.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\empresa\\_delete_form.html.twig");
     }
 }

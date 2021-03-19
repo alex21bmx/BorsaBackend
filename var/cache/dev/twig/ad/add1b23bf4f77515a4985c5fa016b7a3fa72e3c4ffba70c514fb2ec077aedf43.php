@@ -84,6 +84,6 @@ class __TwigTemplate_c3f1367b63861b4159884b25d989d21065f184ff40b212f33e84580bf04
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "empresa/_form.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\empresa\\_form.html.twig");
+", "empresa/_form.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\empresa\\_form.html.twig");
     }
 }

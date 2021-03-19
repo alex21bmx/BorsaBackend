@@ -226,6 +226,6 @@ class __TwigTemplate_d58d6d54fa60f8be2176e26f1eb171a7d94202c276bddab845678b05e52
 
     <a href=\"{{ path('empresa_new') }}\">Create new</a>
 {% endblock %}
-", "empresa/index.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\empresa\\index.html.twig");
+", "empresa/index.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\empresa\\index.html.twig");
     }
 }

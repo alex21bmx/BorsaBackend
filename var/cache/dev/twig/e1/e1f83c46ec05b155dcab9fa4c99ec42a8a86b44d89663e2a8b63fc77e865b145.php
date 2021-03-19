@@ -330,6 +330,6 @@ class __TwigTemplate_b433cc84a75bb142e3446e27f2144750f190acc007a7b2854b0d0a403b2
     {% endif %}
 
 {% endblock %}
-", "@WebProfiler/Profiler/results.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\results.html.twig");
+", "@WebProfiler/Profiler/results.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\results.html.twig");
     }
 }

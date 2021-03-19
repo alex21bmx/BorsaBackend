@@ -233,6 +233,6 @@ class __TwigTemplate_633997d1c756e0c5973ad287200063494807463e5a33488cf88477adcd1
 
     <a href=\"{{ path('oferta_new') }}\">Create new</a>
 {% endblock %}
-", "oferta/index.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\oferta\\index.html.twig");
+", "oferta/index.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\oferta\\index.html.twig");
     }
 }

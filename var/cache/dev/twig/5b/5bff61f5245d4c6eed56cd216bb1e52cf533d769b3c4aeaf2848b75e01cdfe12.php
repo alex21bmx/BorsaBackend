@@ -219,6 +219,6 @@ class __TwigTemplate_a0611e596a5ffbfc595d57a7fe51014ba5445154e24261a185757c21ca9
 
     <a href=\"{{ path('user_new') }}\">Create new</a>
 {% endblock %}
-", "user/index.html.twig", "E:\\xampp\\htdocs\\Directoris Code\\Cole\\Projectes Transversals\\BorsaBackend\\templates\\user\\index.html.twig");
+", "user/index.html.twig", "C:\\Users\\Rafael Garcia\\Desktop\\Proyecto 3 Borsa\\BorsaBackend\\templates\\user\\index.html.twig");
     }
 }
